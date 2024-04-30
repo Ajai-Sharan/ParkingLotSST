@@ -1,10 +1,31 @@
-package org.example.Models;
+package org.example.models;
 
-public class Vehicle {
-    private long id;
-    private long number;
+public class Vehicle extends BaseModel {
+    private String number;
     private VehicleType vehicleType;
-    private String vehicleNo;
-    private User user;
+    private String ownerName;
 
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
+    }
+
+    public VehicleType getVehicleType() {
+        return vehicleType;
+    }
+
+    public void setVehicleType(VehicleType vehicleType) {
+        this.vehicleType = vehicleType;
+    }
+
+    public String getOwnerName() {
+        return ownerName;
+    }
+
+    public void setOwnerName(String ownerName) {
+        this.ownerName = ownerName;
+    }
 }

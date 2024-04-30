@@ -1,6 +1,6 @@
-package org.example.Models;
+package org.example.models;
 
 public enum BillStatus {
+    PENDING,
     PAID,
-    NOT_PAID
 }

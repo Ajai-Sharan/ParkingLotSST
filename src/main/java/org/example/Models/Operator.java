@@ -1,10 +1,22 @@
-package org.example.Models;
+package org.example.models;
 
-public class Operator {
-    private long employeeId;
-    private String phoneNo;
+public class Operator extends BaseModel {
     private String name;
-    private String emailId;
+    private int empId;
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getEmpId() {
+        return empId;
+    }
+
+    public void setEmpId(int empId) {
+        this.empId = empId;
+    }
 }

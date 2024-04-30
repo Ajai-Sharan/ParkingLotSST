@@ -1,7 +1,6 @@
-package org.example.Models;
+package org.example.models;
 
 public enum ParkingFloorStatus {
     OPEN,
-    CLOSE,
-    UNDERMAINTENANCE
+    CLOSED
 }

@@ -1,10 +1,6 @@
-package org.example.Models;
+package org.example.models;
 
 public enum VehicleType {
-    SUV,
-    SEDAN,
-    HATCHBACK,
-    COUPE,
     TWO_WHEELER,
-
+    FOUR_WHEELER,
 }

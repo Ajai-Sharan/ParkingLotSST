@@ -1,6 +1,7 @@
-package org.example.Models;
+package org.example.models;
 
 public enum PaymentStatus {
-    PAID,
-    NOT_PAID
+    PENDING,
+    CONFIRMED,
+    REFUNDED,
 }

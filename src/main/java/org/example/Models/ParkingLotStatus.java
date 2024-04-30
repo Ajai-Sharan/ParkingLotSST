@@ -1,6 +1,6 @@
 package org.example.models;
 
-public enum GateStatus {
+public enum ParkingLotStatus {
     OPEN,
     CLOSED,
 }
